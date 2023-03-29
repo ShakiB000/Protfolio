@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: 'PT Serif', serif;
 }
 .nav-title {
   font-weight: 800;
@@ -73,7 +73,7 @@ main {
   border-radius: 10px;
   padding: 130px 150px;
   text-align: center;
-  box-shadow: -6px 14px 40px 17px rgba(51, 29, 0, 0.5);
+  box-shadow: -6px 5px 83px -13px rgba(9, 18, 0, 0.5);
 }
 .section-description {
   color: cadetblue;
@@ -84,7 +84,7 @@ main {
   text-align: center;
   /* margin-bottom: 20px; */
   margin-top: 30px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 .about-info-continer {
   display: flex;
@@ -114,10 +114,71 @@ main {
 }
 .skill {
   background: #fcfafa;
-  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.6);
+  box-shadow: -6px 5px 83px -13px rgba(9, 18, 0, 0.5);
   border-radius: 5px;
+  margin-bottom: 50px;
+  height: 250px;
+  /* width: 300px; */
+
 }
 .skill-description {
   margin-left: 5px;
   margin-right: 5px;
+}
+/* resume */
+/* .resume{
+  display: flex;
+} */
+.detiles{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.resume-detiles{
+  width: 400px;
+  margin-top: 30px;
+}
+.para{
+  margin-top: 30px;
+  text-align: justify;
+}
+
+
+
+/* contact */
+.contact{
+  display: flex;
+  gap: 100px;
+  background: #f6f6f6;
+  box-shadow: 0px 0px 59px 0px rgba(29, 27, 22, 0.5);
+    padding: 140px 200px;
+    margin-bottom: 30px;
+    border-radius: 14px;
+  
+}
+.contact .section-title{
+  text-align: left;
+}
+.contact input, textarea{
+  margin: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  
+}
+input{
+  padding: 12px;
+}
+.facbook-icon a, li{
+  display: flex;
+  margin-top: 10px;
+  text-decoration: none;
+  
+}
+.foter-title{
+  margin-top: 100px;
+  margin-bottom: 20px;
+  text-align: center;
+  
 }
